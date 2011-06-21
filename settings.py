@@ -1,4 +1,7 @@
 # Django settings for lpms project.
+import os
+ROOT_PATH = os.path.dirname(__file__)
+PROJECT_NAME = os.path.basename(ROOT_PATH)
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
